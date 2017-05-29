@@ -399,12 +399,12 @@ out.println("<br>");
         </ul>
       </li>
       <li class="sub-menu">
-        <a href="javascript:void(0);"><i class="fa fa-table"></i><span>Tables</span><i class="arrow fa fa-angle-right pull-right"></i></a>
+        <a href="javascript:void(0);"><i class="fa fa-table"></i><span>Our Store</span><i class="arrow fa fa-angle-right pull-right"></i></a>
         <ul>
-          <li><a href="tables-basic.html">Basic Tables</a>
+          <li><a href="medicine.jsp">Medicine</a>
           </li>
 
-          <li><a href="tables-data.html">Data Tables</a>
+          <li><a href="fitness.jsp">Fitness</a>
           </li>
         </ul>
       </li>
@@ -533,7 +533,7 @@ out.println("<a href='cart.jsp?lol=" +s2+" '><img src='https://cdn4.iconfinder.c
 </div> 
 
 <div id="storephoto" style="opacity:0.6;">
-<img src="http://archive.ads.org.uk/resource_files/thumbs/thumb_4295_better_health_better_care_cover.jpg" height="160" width="1250"></img>
+<!--<img src="http://archive.ads.org.uk/resource_files/thumbs/thumb_4295_better_health_better_care_cover.jpg" height="160" width="1250"></img>-->
 </div>
 <div id="store">
 <%!
