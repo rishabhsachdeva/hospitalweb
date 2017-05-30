@@ -13,9 +13,6 @@
 <div id="main_container">
   <div id="header">
     <div class="top_right">
-      <div class="languages">
-        <div class="lang_text">Languages:</div>
-        <a href="http://all-free-download.com/free-website-templates/" class="lang"><img src="images/en.gif" alt="" border="0" /></a> <a href="http://all-free-download.com/free-website-templates/" class="lang"><img src="images/de.gif" alt="" border="0" /></a> </div>
       <div class="big_banner"> <a href="http://all-free-download.com/free-website-templates/"><img src="images/banner728.jpg" alt="" border="0" /></a> </div>
     </div>
     <div id="logo"> <a href="http://all-free-download.com/free-website-templates/"><img src="images/logo.png" alt="" border="0" width="182" height="85" /></a> </div>
@@ -25,7 +22,6 @@
       
     </div>
     <!-- end of menu tab -->
-    <div class="crumb_navigation"> Navigation: <span class="current">Home</span> </div>
     <div class="left_content">
       <div class="title_box">Categories</div>
       <ul class="left_menu">
@@ -60,12 +56,9 @@
           <div class="product_title"><a href="http://all-free-download.com/free-website-templates/">Dumbells</a></div>
           <div class="product_img"><a href="http://all-free-download.com/free-website-templates/"><img src="https://www.powerhouse-fitness.co.uk/media/catalog/product/cache/4/image/1600x1600/9df78eab33525d08d6e5fb8d27136e95/2/5/25kg_rubber_dumbbell_kit_2.jpg" alt="" border="0" height="100px" width="100px"/></a></div>
           <div class="prod_price"><span class="reduce">9999Rs</span> <span class="price">8888Rs</span></div>
-       <%
-            String sq="Dumbells";
-            String sq2="8888";
-            %> </div>
+        </div>
         <div class="prod_details_tab">
-            <a href="addmedicine.jsp?lol='sq'&lol2='sq2' " class="prod_buy">Add to Cart</a>
+            <a href="addmedicine.jsp?lol=Dumbells&lol2=8888 " class="prod_buy">Add to Cart</a>
             
             <a href="medicinedetails.jsp" class="prod_details">Details</a> 
                     </div>
@@ -99,8 +92,8 @@
           <div class="product_img"><a href="http://all-free-download.com/free-website-templates/"><img src="https://static.pexels.com/photos/45058/pexels-photo-45058.jpeg" alt="" border="0" height="100px" width="100px" /></a></div>
           <div class="prod_price"><span class="reduce">2900Rs</span> <span class="price">2700Rs</span></div>
         <%
-            String sq7="Dumbells";
-            String sq8="8888";
+            String sq7="Hand Exerciser";
+            String sq8="2700";
             %>
         </div>
         <div class="prod_details_tab"> <a href="addmedicine.jsp?lol='+sq3+'&lol2=' +sq4+'" class="prod_buy">Add to Cart</a> <a href="medicinedetails.jsp" class="prod_details">Details</a> </div>
@@ -156,12 +149,6 @@
           <span class="border_cart"></span> Total: <span class="price">350$</span> </div>
         <div class="cart_icon"><a href="http://all-free-download.com/free-website-templates/"><img src="images/shoppingcart.png" alt="" width="35" height="35" border="0" /></a></div>
       </div>
-      <div class="title_box">What?s new</div>
-      <div class="border_box">
-        <div class="product_title"><a href="http://all-free-download.com/free-website-templates/">Motorola 156 MX-VL</a></div>
-        <div class="product_img"><a href="http://all-free-download.com/free-website-templates/"><img src="images/p2.jpg" alt="" border="0" /></a></div>
-        <div class="prod_price"><span class="reduce">350$</span> <span class="price">270$</span></div>
-      </div>
       <div class="title_box">Manufacturers</div>
       <div class="banner_adds"> <a href="http://all-free-download.com/free-website-templates/"><img src="images/bann1.jpg" alt="" border="0" /></a> </div>
     </div>
@@ -170,12 +157,8 @@
   <!-- end of main content -->
   <div class="footer">
     <div class="left_footer"> <img src="images/footer_logo.png" alt="" width="89" height="42"/> </div>
-    <div class="center_footer"> Template name. All Rights Reserved 2008<br />
-      <a href="http://csscreme.com"><img src="images/csscreme.jpg" alt="csscreme" title="csscreme" border="0" /></a><br />
-      <img src="images/payment.gif" alt="" /> </div>
-    <div class="right_footer"> <a href="http://all-free-download.com/free-website-templates/">home</a> <a href="http://all-free-download.com/free-website-templates/">about</a> <a href="http://all-free-download.com/free-website-templates/">sitemap</a> <a href="http://all-free-download.com/free-website-templates/">rss</a> <a href="http://all-free-download.com/free-website-templates/">contact us</a> </div>
-  </div>
+    </div>
 </div>
 <!-- end of main_container -->
-<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div></body>
+</body>
 </html>

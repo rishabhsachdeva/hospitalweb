@@ -384,6 +384,21 @@ out.println("<br>");
 
 <!--navigation bar-->
 
+<div class="ii">
+<%
+String  s1  = (String) session.getAttribute("var");  
+String  s2  = (String) session.getAttribute("useremail");   
+out.println("<font size='4'>HELLO    "+s1);
+out.println("<br>");
+out.println(s1+"<font size='4'>'s MEDICART ");
+%>
+</div>
+<div class="cart">
+<%
+// out.println("<a href='cart.jsp?lol=" +s1+" &lol2=" +s2+" '><img src='https://cdn4.iconfinder.com/data/icons/medical-website-kit/600/Icon_29-512.png' height='50' width='50'></a>");
+out.println("<a href='cart.jsp?lol=" +s2+" '><img src='https://cdn4.iconfinder.com/data/icons/medical-website-kit/600/Icon_29-512.png' height='50' width='50'></a>");
+%>
+</div> 
 <aside class="sidebar">
   <div id="leftside-navigation" class="nano">
     <ul class="nano-content">
@@ -403,10 +418,11 @@ out.println("<br>");
         <ul>
           <li><a href="medicine.jsp">Medicine</a>
           </li>
+          <%          
+          out.println("<li><a href='fitness.jsp?lol=" +s2+" '>Fitness</a></li>");
+          %>
 
-          <li><a href="fitness.jsp">Fitness</a>
-          </li>
-        </ul>
+      </ul>
       </li>
       <li class="sub-menu">
         <a href="javascript:void(0);"><i class="fa fa fa-tasks"></i><span>Forms</span><i class="arrow fa fa-angle-right pull-right"></i></a>
@@ -514,23 +530,6 @@ String email=request.getParameter("email");
 Date createTime = new Date(session.getCreationTime());
 %>
 
-<!-- you started browsing this site at: -->
-
-<div class="ii">
-<%
-String  s1  = (String) session.getAttribute("var");  
-String  s2  = (String) session.getAttribute("useremail");   
-out.println("<font size='4'>HELLO    "+s1);
-out.println("<br>");
-out.println(s1+"<font size='4'>'s MEDICART ");
-%>
-</div>
-<div class="cart">
-<%
-// out.println("<a href='cart.jsp?lol=" +s1+" &lol2=" +s2+" '><img src='https://cdn4.iconfinder.com/data/icons/medical-website-kit/600/Icon_29-512.png' height='50' width='50'></a>");
-out.println("<a href='cart.jsp?lol=" +s2+" '><img src='https://cdn4.iconfinder.com/data/icons/medical-website-kit/600/Icon_29-512.png' height='50' width='50'></a>");
-%>
-</div> 
 
 <div id="storephoto" style="opacity:0.6;">
 <!--<img src="http://archive.ads.org.uk/resource_files/thumbs/thumb_4295_better_health_better_care_cover.jpg" height="160" width="1250"></img>-->
